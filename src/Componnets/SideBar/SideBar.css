@@ -1,0 +1,79 @@
+.main_container {
+  display: flex;
+}
+.col-1 {
+  width: 21%;
+  background-color: rgba(208, 208, 208);
+  box-shadow: 0 0 4px;
+  border-color: none;
+  border: 1px solid black;
+  height: 130vh;
+  border-radius: 1rem;
+  justify-content: center;
+  /* position: fixed; */
+  overflow:auto;
+}
+.col-2 {
+  width: 79%;
+  background-color: rgba(208, 208, 208);
+}
+
+.sub_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255);
+  box-shadow: 0 0 1px;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 200px;
+  margin: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.wrapper > p {
+  position: absolute;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 0.1rem;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.content {
+  margin-left: 0.4rem;
+}
+.btn {
+  padding: 0.5rem;
+  width: 10rem;
+  margin-top: 1rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  border-color: none;
+  background-color: rgba(102, 255, 178);
+}
+.btn:hover {
+  font-weight: bold;
+  background-color: seagreen;
+}
+.togglebtn {
+  padding-bottom: 2.9rem;
+  font-size: 3rem;
+  margin-top: 1rem;
+  height: 2.8rem;
+}
+.togglebtn:hover {
+  font-weight: large;
+}
